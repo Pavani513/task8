@@ -1,0 +1,80 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <form action="./regi.html" method="get">
+            <pre><center>
+                <fieldset>
+                    <legend>Register Here</legend>
+       <h3>Im Going to Join in 10K Coders &#x1F3E2; and wanna Learn Skills and Gonna become a Developer &#128187;</h3>
+
+            <div style="background-color: cadetblue;">
+            <label for="Full name"></label>
+            Name:<input type="text" placeholder="Enter Name" id="Full name"Required/>
+            </div>
+
+            <div style="background-color: darkolivegreen;">
+            <label for="Pswd"></label>
+        Password:<input type="text" placeholder="Enter Password" id="Pswd"Required/>
+            </div>
+
+            <div style="background-color: aqua;">
+            <label for="Enter Email"></label>
+            Email:<input type="email" placeholder="Enter Email" id="Enter Email" pattern="[a-z0-9.]+@[a-z]+.[a-z]{2, }"/>
+            </div>
+
+            <div style="background-color:palevioletred;">
+            <label for="Food"></label>
+ Choose your Food:<SELECT name="Choose your Food" id="Food" style="width: 170px;">
+            <option value="Select">Select </option>    
+            <option value="BIRYANI">BIRYANI</option>
+            <option value="STARTERS">STARTERS</option>
+            <option value="ICE CREAM"Disabled>ICE CREAM</option>
+            <option value="DESSERTS">DESSERTS</option>
+            </SELECT>
+            </div>
+
+            <div style="background-color: coral;">
+            Timings:<input type="text" list="timings" style="width: 170px;">
+            <datalist id="timings">
+            <option value="8:30am-10:00am">8:30am-10:00am</option> 
+            <option value="10:30am-12:00am">10:30am-12:00am</option>
+            <option value="1:30pm-3:00pm">1:30pm-3:00pm</option>
+            <option value="4:00pm-5:30pm">4:00pm-5:30pm</option>
+            </datalist>
+            </div>
+        
+              <input type="file">
+
+              <div style="background-color:plum;">
+         <input type="radio" name="gender" id="male"> Male
+         <label for="male"></label>
+            
+         <input type="radio" name="gender" id="female">Female
+         <label for="female"></label>
+            
+         <input type="radio" name="gender" id="others">Others
+         <label for="others"></label>
+            </div>
+
+                   <center><p><input type="checkbox"> I agree to <a href=" ">Terms</a>&<a href=" ">Conditions</a></p></center>
+
+                   <div style="background-color:darkslateblue; padding: 10px;">
+                        
+                <label for="address" style="color: white; margin-right: 3px;">Address:</label>
+                <textarea id="address" name="Address" rows="5" cols="50" >
+                Pavani 
+                h.no:2-5-1924 
+                koritepadu 
+                Guntur
+                            </textarea>
+                        </div>
+                    
+                
+             <center>                <button type="submit" style="background-color: crimson; padding: 10px;">Submit</button></center>
+
+            </fieldset>       
+        </center>
+         </form>
+    </body>
+</html>
